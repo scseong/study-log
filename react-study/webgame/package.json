@@ -1,0 +1,30 @@
+{
+  "name": "webgame",
+  "version": "1.0.0",
+  "description": "리액트(React): 사용자 인터페이스를 만들기 위한 JavaScript 라이브러리",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --env development"
+  },
+  "author": "cs",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.1",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.4.0",
+    "mini-css-extract-plugin": "^2.4.3",
+    "react-refresh": "^0.10.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.59.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.3.1"
+  }
+}
