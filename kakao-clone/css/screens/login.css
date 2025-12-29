@@ -1,0 +1,73 @@
+.welcome-header {
+  margin: 90px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-header__title {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.welcome-header__text {
+  width: 60%;
+  opacity: 0.7;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 30px;
+}
+
+.login-form__input {
+  width: 100%;
+  font-size: 18px;
+  padding: 15px 0;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 25px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.login-form__input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.login-form__input:focus {
+  border-color: var(--yellow);
+}
+
+.login-form__input + .login-form__btn {
+  margin-bottom: 10px;
+}
+
+.login-form__btn {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--yellow);
+  padding: 15px 0;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 25px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.login-form__btn:hover {
+  background-color: rgba(var(--yellow-rgb), 0.6);
+}
+
+.login-form__a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.login-form__a:hover {
+  text-decoration: underline;
+}

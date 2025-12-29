@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Sans+KR&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat w/ ChangSeong</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>KT</span>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fab fa-bluetooth-b"></i>
+        <i class="fas fa-wifi"></i>
+        <span>100%</span>
+        <i class="fa fa-battery"></i>
+      </div>
+    </div>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html"> <i class="fas fa-angle-left fa-2x"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">ChangSeong</h1>
+      </div>
+      <div class="alt-header__column">
+        <span>
+          <i class="fas fa-search fa-lg"></i>
+        </span>
+        <span>
+          <i class="fas fa-bars fa-lg"></i>
+        </span>
+      </div>
+    </header>
+    <main class="main-screen main-chat">
+      <div class="chats__timestamp">2022년 6월 12일</div>
+      <div class="message-row">
+        <img
+          src="https://www.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png"
+          alt=""
+        />
+        <div class="message-row__content">
+          <span class="message__author">ChangSeong</span>
+          <div class="message__info">
+            <span class="message__bubble message__bubble-opponent">Hello</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img
+          src="https://www.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png"
+          alt=""
+        />
+        <div class="message-row__content">
+          <span class="message__author">ChangSeong</span>
+          <div class="message__info">
+            <span class="message__bubble message__bubble-opponent">Hi!</span>
+            <span class="message__time">21:28</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble message__bubble-me">Hi!</span>
+            <span class="message__time">21:29</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-2x"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" />
+        <i class="far fa-smile fa-2x"></i>
+        <button>
+          <i class="fas fa-arrow-up fa-2x"></i>
+        </button>
+      </div>
+    </form>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
